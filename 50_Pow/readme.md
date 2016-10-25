@@ -1,12 +1,6 @@
-50. Pow(x, n)
+50. Pow(x, n)  
 Implement pow(x, n).
-
-
-
-
-
-
-
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 My answer:
 Using ans*ans for each time, and record the number
 
