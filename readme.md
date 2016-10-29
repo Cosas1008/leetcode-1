@@ -35,3 +35,13 @@ Given [10, 9, 2, 5, 3, 7, 101, 18],
 The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4.Note that there may be more than one LIS combination, it is only necessary for you to return the length.  
 Your algorithm should run in O(n2) complexity.  
 Follow up: Could you improve it to O(n log n) time complexity?
+## 209. Minimum Size Subarray Sum
+Given an array of n positive integers and a positive integer s, find the minimal length of a subarray of which the sum ≥ s. If there isn't one, return 0 instead.
+## 222. Count Complete Tree Nodes
+Given a complete binary tree, count the number of nodes.  
+Definition of a complete binary tree from Wikipedia:  
+In a complete binary tree every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+## 240. Search a 2D Matrix II
+Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:  
+Integers in each row are sorted in ascending from left to right.  
+Integers in each column are sorted in ascending from top to bottom.  
