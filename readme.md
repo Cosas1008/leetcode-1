@@ -45,3 +45,7 @@ In a complete binary tree every level, except possibly the last, is completely f
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:  
 Integers in each row are sorted in ascending from left to right.  
 Integers in each column are sorted in ascending from top to bottom.  
+## 154. Find Minimum in Rotated Sorted Array II
+Follow up for "Find Minimum in Rotated Sorted Array":  
+What if duplicates are allowed?  
+Would this affect the run-time complexity? How and why?  
