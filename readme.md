@@ -49,3 +49,5 @@ Integers in each column are sorted in ascending from top to bottom.
 Follow up for "Find Minimum in Rotated Sorted Array":  
 What if duplicates are allowed?  
 Would this affect the run-time complexity? How and why?  
+## 451. Sort Characters By Frequency
+Given a string, sort it in decreasing order based on the frequency of characters.
