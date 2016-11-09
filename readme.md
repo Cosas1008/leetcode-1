@@ -51,3 +51,17 @@ What if duplicates are allowed?
 Would this affect the run-time complexity? How and why?  
 ## 451. Sort Characters By Frequency
 Given a string, sort it in decreasing order based on the frequency of characters.
+## 1. Two Sum  
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.  
+You may assume that each input would have exactly one solution.  
+## 7. Reverse Integer
+Reverse digits of an integer.  
+## 6. ZigZag Conversion
+## 8. String to Integer (atoi)
+Implement atoi to convert a string to an integer.  
+Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.  
+## 9. Palindrome Number
+Determine whether an integer is a palindrome. Do this without extra space.  
+*Should ask if negative number is valid
+## 14. Longest Common Prefix
+Write a function to find the longest common prefix string amongst an array of strings.  
