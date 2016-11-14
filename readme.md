@@ -78,3 +78,9 @@ Calculate the sum of two integers a and b, but you are not allowed to use the op
 ## 4. Median of Two Sorted Arrays
 There are two sorted arrays nums1 and nums2 of size m and n respectively.  
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). 
+## 78. Subsets
+Given a set of distinct integers, nums, return all possible subsets.  
+Note: The solution set must not contain duplicate subsets.  
+## 90. Subsets II
+Given a collection of integers that might contain duplicates, nums, return all possible subsets.  
+Note: The solution set must not contain duplicate subsets.  
