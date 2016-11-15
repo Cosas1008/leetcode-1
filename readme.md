@@ -84,3 +84,11 @@ Note: The solution set must not contain duplicate subsets.
 ## 90. Subsets II
 Given a collection of integers that might contain duplicates, nums, return all possible subsets.  
 Note: The solution set must not contain duplicate subsets.  
+## 442. Find All Duplicates in an Array
+Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.  
+Find all the elements that appear twice in this array.  
+Could you do it without extra space and in O(n) runtime?
+## 448. Find All Numbers Disappeared in an Array
+Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.  
+Find all the elements of [1, n] inclusive that do not appear in this array.  
+Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
