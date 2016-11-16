@@ -92,3 +92,7 @@ Could you do it without extra space and in O(n) runtime?
 Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.  
 Find all the elements of [1, n] inclusive that do not appear in this array.  
 Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.
+## 268. Missing Number
+Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.  
+For example,  
+Given nums = [0, 1, 3] return 2.  
