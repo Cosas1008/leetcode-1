@@ -99,3 +99,16 @@ Given nums = [0, 1, 3] return 2.
 ## 117. Populating Next Right Pointers in Each Node II
 Follow up for problem "Populating Next Right Pointers in Each Node".  
 What if the given tree could be any binary tree? Would your previous solution still work?  
+## 274. H-Index
+Given an array of citations (each citation is a non-negative integer) of a researcher, write a function to compute the researcher's h-index.  
+According to the definition of h-index on Wikipedia: "A scientist has index h if h of his/her N papers have at least h citations each, and the other N − h papers have no more than h citations each."  
+For example, given citations = [3, 0, 6, 1, 5], which means the researcher has 5 papers in total and each of them had received 3, 0, 6, 1, 5 citations respectively. Since the researcher has 3 papers with at least 3 citations each and the remaining two with no more than 3 citations each, his h-index is 3.  
+Note: If there are several possible values for h, the maximum one is taken as the h-index.
+## 275. H-Index II
+Follow up for H-Index: What if the citations array is sorted in ascending order? Could you optimize your algorithm?  
+## 270. Closest Binary Search Tree Value
+Given a non-empty binary search tree and a target value, find the value in the BST that is closest to the target.  
+## 441. Arranging Coins
+You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.  
+Given n, find the total number of full staircase rows that can be formed.  
+n is a non-negative integer and fits within the range of a 32-bit signed integer.  
