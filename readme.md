@@ -115,3 +115,13 @@ n is a non-negative integer and fits within the range of a 32-bit signed integer
 ## 454. 4Sum II
 Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.  
 To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N ≤ 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.  
+## 170. Two Sum III - Data structure design
+Design and implement a TwoSum class. It should support the following operations: add and find.  
+add - Add the number to an internal data structure.  
+find - Find if there exists any pair of numbers which sum is equal to the value.  
+## 15. 3Sum
+Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.  
+Note: The solution set must not contain duplicate triplets.
+## 18. 4Sum ***
+Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.  
+Note: The solution set must not contain duplicate quadruplets.  
