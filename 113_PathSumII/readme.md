@@ -1,0 +1,3 @@
+- non - recursive
+- python's solution has slightly better time performance but slightly worse space performance
+- c++'s solution has slightly better space performance but slightly worse time performance

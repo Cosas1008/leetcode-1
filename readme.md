@@ -125,3 +125,5 @@ Note: The solution set must not contain duplicate triplets.
 ## 18. 4Sum ***
 Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.  
 Note: The solution set must not contain duplicate quadruplets.  
+## 113. Path Sum II
+Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
