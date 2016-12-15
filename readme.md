@@ -29,6 +29,12 @@ Suppose a sorted array is rotated at some pivot unknown to you beforehand.
 (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).  
 You are given a target value to search. If found in the array return its index, otherwise return -1.  
 You may assume no duplicate exists in the array.
+## 50. Pow(x, n)
+Implement pow(x, n).
+## 55. Jump Game
+Given an array of non-negative integers, you are initially positioned at the first index of the array.  
+Each element in the array represents your maximum jump length at that position.  
+Determine if you are able to reach the last index.
 ## 69. Sqrt(x)  
 Implement int sqrt(int x).  
 Compute and return the square root of x.
@@ -52,6 +58,15 @@ Given a binary tree and a sum, find all root-to-leaf paths where each path's sum
 ## 117. Populating Next Right Pointers in Each Node II
 Follow up for problem "Populating Next Right Pointers in Each Node".  
 What if the given tree could be any binary tree? Would your previous solution still work?  
+## 122. Best Time to Buy and Sell Stock II
+Say you have an array for which the ith element is the price of a given stock on day i.  
+Design an algorithm to find the maximum profit. You may complete as many transactions as you like (ie, buy one and sell one share of the stock multiple times). However, you may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).  
+## 139. Word Break
+Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.  
+For example, given  
+s = "leetcode",  
+dict = ["leet", "code"].  
+Return true because "leetcode" can be segmented as "leet code".  
 ## 153. Find Minimum in Rotated Sorted Array
 Suppose a sorted array is rotated at some pivot unknown to you beforehand.  
 (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).  
@@ -79,6 +94,10 @@ In a complete binary tree every level, except possibly the last, is completely f
 Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:  
 Integers in each row are sorted in ascending from left to right.  
 Integers in each column are sorted in ascending from top to bottom.  
+## 264. Ugly Number II
+Write a program to find the n-th ugly number.  
+Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 1, 2, 3, 4, 5, 6, 8, 9, 10, 12 is the sequence of the first 10 ugly numbers.  
+Note that 1 is typically treated as an ugly number.  
 ## 268. Missing Number
 Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.  
 For example,  
@@ -103,6 +122,9 @@ Given [10, 9, 2, 5, 3, 7, 101, 18],
 The longest increasing subsequence is [2, 3, 7, 101], therefore the length is 4.Note that there may be more than one LIS combination, it is only necessary for you to return the length.  
 Your algorithm should run in O(n2) complexity.  
 Follow up: Could you improve it to O(n log n) time complexity?
+## 313. Super Ugly Number
+Write a program to find the nth super ugly number.  
+Super ugly numbers are positive numbers whose all prime factors are in the given prime list primes of size k. For example, [1, 2, 4, 7, 8, 13, 14, 16, 19, 26, 28, 32] is the sequence of the first 12 super ugly numbers given primes = [2, 7, 13, 19] of size 4.  
 ## 344. Reverse String
 Write a function that takes a string as input and returns the string reversed.  
 ## 367. Valid Perfect Square
@@ -110,6 +132,26 @@ Given a positive integer num, write a function which returns True if num is a pe
 Note: Do not use any built-in library function such as sqrt.
 ## 371. Sum of Two Integers
 Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -. 
+## 376. Wiggle Subsequence
+A sequence of numbers is called a wiggle sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a wiggle sequence.  
+For example, [1,7,4,9,2,5] is a wiggle sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, [1,4,7,2,5] and [1,7,4,5,5] are not wiggle sequences, the first because its first two differences are positive and the second because its last difference is zero.  
+Given a sequence of integers, return the length of the longest subsequence that is a wiggle sequence. A subsequence is obtained by deleting some number of elements (eventually, also zero) from the original sequence, leaving the remaining elements in their original order.  
+## 378. Kth Smallest Element in a Sorted Matrix
+Given a n x n matrix where each of the rows and columns are sorted in ascending order, find the kth smallest element in the matrix.  
+Note that it is the kth smallest element in the sorted order, not the kth distinct element.  
+## 392. Is Subsequence
+Given a string s and a string t, check if s is subsequence of t.  
+You may assume that there is only lower case English letters in both s and t. t is potentially a very long (length ~= 500,000) string, and s is a short string (<=100).  
+A subsequence of a string is a new string which is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, "ace" is a subsequence of "abcde" while "aec" is not).  
+## 406. Queue Reconstruction by Height
+Suppose you have a random list of people standing in a queue. Each person is described by a pair of integers (h, k), where h is the height of the person and k is the number of people in front of this person who have a height greater than or equal to h. Write an algorithm to reconstruct the queue.
+## 409. Longest Palindrome
+Given a string which consists of lowercase or uppercase letters, find the length of the longest palindromes that can be built with those letters.  
+This is case sensitive, for example "Aa" is not considered a palindrome here.  
+## 438. Find All Anagrams in a String
+Given a string s and a non-empty string p, find all the start indices of p's anagrams in s.  
+Strings consists of lowercase English letters only and the length of both strings s and p will not be larger than 20,100.  
+The order of output does not matter.   
 ## 441. Arranging Coins
 You have a total of n coins that you want to form in a staircase shape, where every k-th row must have exactly k coins.  
 Given n, find the total number of full staircase rows that can be formed.  
@@ -127,3 +169,6 @@ Given a string, sort it in decreasing order based on the frequency of characters
 ## 454. 4Sum II
 Given four lists A, B, C, D of integer values, compute how many tuples (i, j, k, l) there are such that A[i] + B[j] + C[k] + D[l] is zero.  
 To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N ≤ 500. All integers are in the range of -228 to 228 - 1 and the result is guaranteed to be at most 231 - 1.  
+## 339. Nested List Weight Sum
+Given a nested list of integers, return the sum of all integers in the list weighted by their depth.  
+Each element is either an integer, or a list -- whose elements may also be integers or other lists.  
