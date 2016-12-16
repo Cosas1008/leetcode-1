@@ -4,9 +4,13 @@ Given an array of integers, return indices of the two numbers such that they add
 You may assume that each input would have exactly one solution.  
 ## 2. Add Two Numbers
 You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit.   Add the two numbers and return it as a linked list.
+## 3. Longest Substring Without Repeating Characters
+Given a string, find the length of the longest substring without repeating characters.
 ## 4. Median of Two Sorted Arrays
 There are two sorted arrays nums1 and nums2 of size m and n respectively.  
 Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)). 
+## 5. Longest Palindromic Substring
+Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 ## 6. ZigZag Conversion
 ## 7. Reverse Integer
 Reverse digits of an integer.  
@@ -16,14 +20,58 @@ Hint: Carefully consider all possible input cases. If you want a challenge, plea
 ## 9. Palindrome Number
 Determine whether an integer is a palindrome. Do this without extra space.  
 *Should ask if negative number is valid
+## 10. Regular Expression Matching
+Implement regular expression matching with support for '.' and '*'.  
+'.' Matches any single character.  
+'*' Matches zero or more of the preceding element.  
+## 11. Container With Most Water
+Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
+## 13. Roman to Integer
+Given a roman numeral, convert it to an integer.  
+Input is guaranteed to be within the range from 1 to 3999.  
 ## 14. Longest Common Prefix
 Write a function to find the longest common prefix string amongst an array of strings.  
 ## 15. 3Sum
 Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.  
 Note: The solution set must not contain duplicate triplets.
+## 16. 3Sum Closest
+Given an array S of n integers, find three integers in S such that the sum is closest to a given number, target. Return the sum of the three integers. You may assume that each input would have exactly one solution.  
+    For example, given array S = {-1 2 1 -4}, and target = 1.  
+    The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).  
+## 17. Letter Combinations of a Phone Number
+Given a digit string, return all possible letter combinations that the number could represent.  
+A mapping of digit to letters (just like on the telephone buttons) is given below.  
 ## 18. 4Sum ***
 Given an array S of n integers, are there elements a, b, c, and d in S such that a + b + c + d = target? Find all unique quadruplets in the array which gives the sum of target.  
 Note: The solution set must not contain duplicate quadruplets.  
+## 19. Remove Nth Node From End of List
+Given a linked list, remove the nth node from the end of list and return its head.  
+For example,  
+   Given linked list: 1->2->3->4->5, and n = 2.  
+   After removing the second node from the end, the linked list becomes 1->2->3->5.  
+## 20. Valid Parentheses
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.  
+The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.  
+## 21. Merge Two Sorted Lists
+Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
+## 22. Generate Parentheses
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+## 24. Swap Nodes in Pairs
+Given a linked list, swap every two adjacent nodes and return its head.  
+For example,  
+Given 1->2->3->4, you should return the list as 2->1->4->3.  
+Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.  
+## 25. Reverse Nodes in k-Group
+Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.  
+If the number of nodes is not a multiple of k then left-out nodes in the end should remain as it is.  
+You may not alter the values in the nodes, only nodes itself may be changed.  
+Only constant memory is allowed.  
+## 26. Remove Duplicates from Sorted Array
+Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length.  
+Do not allocate extra space for another array, you must do this in place with constant memory.  
+For example,  
+Given input array nums = [1,1,2],  
+Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the new length.  
 ## 33. Search in Rotated Sorted Array  
 Suppose a sorted array is rotated at some pivot unknown to you beforehand.  
 (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2).  
