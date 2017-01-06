@@ -229,3 +229,5 @@ Given a binary tree, imagine yourself standing on the right side of it, return t
 ## 359. Logger Rate Limiter
 Design a logger system that receive stream of messages along with its timestamps, each message should be printed if and only if it is not printed in the last 10 seconds.  
 Given a message and a timestamp (in seconds granularity), return true if the message should be printed in the given timestamp, otherwise returns false.
+## 241. Different Ways to Add Parentheses
+Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are +, - and *.
