@@ -231,3 +231,9 @@ Design a logger system that receive stream of messages along with its timestamps
 Given a message and a timestamp (in seconds granularity), return true if the message should be printed in the given timestamp, otherwise returns false.
 ## 241. Different Ways to Add Parentheses
 Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are +, - and *.
+## 306. Additive NumberAdditive number is a string whose digits can form additive sequence.
+
+A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.  
+For example:  
+"112358" is an additive number because the digits can form an additive sequence: 1, 1, 2, 3, 5, 8.  
+1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8  
