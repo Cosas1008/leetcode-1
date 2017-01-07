@@ -232,8 +232,11 @@ Given a message and a timestamp (in seconds granularity), return true if the mes
 ## 241. Different Ways to Add Parentheses
 Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are +, - and *.
 ## 306. Additive NumberAdditive number is a string whose digits can form additive sequence.
-
 A valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.  
 For example:  
 "112358" is an additive number because the digits can form an additive sequence: 1, 1, 2, 3, 5, 8.  
 1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8  
+## 398. Random Pick Index
+Given an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.
+## 382. Linked List Random Node
+Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.
